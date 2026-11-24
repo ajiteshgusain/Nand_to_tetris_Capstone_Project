@@ -1,0 +1,9 @@
+no key held                  black words=  0  rows=None..None  cols=[]  values=set()
+key held                     black words= 60  rows=14..33  cols=[0, 1, 2]  values={65535}
+key pressed then released    black words=  0  rows=None..None  cols=[]  values=set()
+Max(3,7) -> R2 = 7
+Max(9,2) -> R2 = 9
+Max(5,5) -> R2 = 5
+Max(-4,3) -> R2 = 3
+Add: R0 = 5
+Rect R0=5: black rows = [0, 1, 2, 3, 4]

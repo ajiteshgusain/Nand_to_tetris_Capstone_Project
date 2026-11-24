@@ -1,0 +1,17 @@
+// Computer.hdl - the complete Hack computer
+// Ajitesh Singh Gusain | Roll No. 2501630014 | K = 14
+//
+// CPU + data Memory (RAM, Screen, Keyboard) + instruction ROM32K
+
+CHIP Computer {
+
+    IN reset;
+
+    PARTS:
+    CPU(inM=memOut, instruction=instruction, reset=reset,
+        outM=cpuOut, writeM=writeM, addressM=addressM, pc=pc);
+
+    Memory(in=cpuOut, load=writeM, address=addressM, out=memOut);
+
+    ROM32K(address=pc, out=instruction);
+}

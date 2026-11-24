@@ -1,0 +1,2 @@
+Warning: Line 8: label 'LOOP' is defined more than once (first defined on line 4). Keeping the first definition.
+Assembled 7 instructions -> tests/DupLabel.hack
