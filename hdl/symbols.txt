@@ -1,0 +1,10 @@
+LABELS
+LOOP = 0
+WHITE = 8
+DRAW = 10
+ROWLOOP = 18
+
+VARIABLES
+color = 16
+addr = 17
+rows = 18
